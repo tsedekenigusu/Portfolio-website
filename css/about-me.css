@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0%;
+    background-color: rgb(141, 141, 141);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-container {
+    position: relative;
+    height: 200px;
+    clear: both;
+}
+
+.menu-top nav li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu-top nav ul{
+    position: absolute;
+    left: 30%;
+    text-align: center;
+    background-color: rgba(40,40,40, 0.6);
+
+}
+
+.menu-top nav ul a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu-top nav ul a:hover{
+    background-color: white;
+    color: black;
+}
+
+.middle-container {
+    text-align: center;
+}
+
+.middle-container img {
+    position: relative;
+    height: 500px;
+    width: 400px;
+    top: -5%;
+
+    border-radius: 30px;
+    box-shadow: 2px 2px rgb(88, 86, 86);
+}
+
+.middle-container p {
+    padding: 2% 8%;
+    width: 100%;
+    margin-top: 2%;
+    background-color: rgb(78, 78, 78);
+    left: 30%;
+}
+
+.middle-container h2 {
+    padding-top: 2%;
+}
+
+.middle-container2 {
+    margin-top: 2%;
+}
+
+.middle-container2 img {
+    margin-top: 2%;
+    height: 300px;
+    width: 400px;
+}
+
+.middle-container2 p {
+    float: right;
+    margin-right: 3%;
+    width: 65%;
+    padding: 2% 8%;
+    margin-top: 2%;
+    background-color: rgb(78, 78, 78);
+    left: 30%;
+}
+
+.middle-container3 {
+    margin-top: 2%;
+}
+
+.middle-container3 img {
+    margin-top: 2%;
+    height: 300px;
+    width: 200px;
+    left: 80%;
+}
+
+.middle-container3 p {
+    float: left;
+    margin-left: 1%;
+    width: 65%;
+    padding: 2% 8%;
+    margin-top: 2%;
+    background-color: rgb(78, 78, 78);
+}
+
+.vid-container {
+    height: 300px;
+    width: 450px;
+}

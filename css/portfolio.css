@@ -1,0 +1,157 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+#logo{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 60px;
+	display: none;
+}
+#logo img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.menu-top nav li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu-top nav ul{
+    position: absolute;
+    top: 0px;
+    left: 30%;
+    text-align: center;
+    background-color: rgba(40,40,40, 0.6);
+
+}
+
+.menu-top nav ul a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu-top nav ul a:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+ul:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+header section h1, section h2{
+	font-family: helvetica;
+	color: rgb(35, 51, 76);
+	margin: 0 2%;
+}
+header section{
+	margin: 50px auto;
+	text-align: center;
+}
+.articleSection{
+	text-align: center;
+}
+.article video{
+	width: 100%;
+}
+.article{
+	width: 72%;
+	display: inline-grid;
+	margin: 20px 2%;
+}
+.article div p{
+	font-family: helvetica;
+	color: rgb(35, 56, 91);
+	padding: 7px 5%;
+}
+.achievementSection{
+	text-align: center;
+	padding: 30px 0;
+}
+.achievements p{
+	padding: 20px 9%;
+	font-family: helvetica;
+	color: rgb(35, 56, 91);
+	text-align: justify;
+	padding: 7px 5%;
+}
+.achievements img{
+	width: 100%;
+}
+.achievements figure{
+	display: inline-grid;
+	width: 50%;
+}
+
+@media screen and (min-width: 400px){
+	#logo{
+		display: inline;
+	}
+}
+@media screen and (min-width: 600px){
+	.article{
+		width: 40%;
+		display: inline-grid;
+		margin: 20px 2%;
+	}
+	.achievements{
+		text-align: left;
+		padding: 30px 7%;
+	}
+	.achievements p{
+		padding: 0 2%;
+	}
+	.achievements figure{
+		float: left;
+		width: 25%;
+	}
+	.achievements:after{
+		display: block;
+		content: "";
+		clear: both;
+	}
+	.achievements div{
+		display: inline-grid;
+		width: 72%;
+	}
+}
+@media screen and (min-width: 900px){
+	.achievements{
+		padding: 50px 6%;
+		width: 43%;
+	}
+	.achievements.first{
+		float: left;
+		padding-right: 0;
+	}
+	.achievements.second{
+		float: right;
+		padding-left: 0;
+	}
+	.achievementSection:after{
+		display: block;
+		content: "";
+		clear: both;
+	}
+}
+@media screen and (min-width: 1000px){
+	.article{
+		width: 25%;
+		display: inline-grid;
+		margin: 20px 2%;
+	}
+}
